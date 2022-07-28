@@ -1,0 +1,11 @@
+// 'APP.JS'
+
+//Cores
+@import "./variables/colors.scss";
+
+//Elements em comum
+@import "./common/common.scss";
+
+//Pages
+@import "./pages/login.scss";
+@import "./pages/cadastro.scss";

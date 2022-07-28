@@ -1,0 +1,9 @@
+// Import colors
+@import "./colors/colors.scss";
+
+//Import Home
+@import "./pages/home.scss"
+
+///Lembrando, o SASS nos pede uma hierarquia bem definida e sincrona, em nosso 'home.scss' temos variaveis sendo solicitadas
+//caso nosso 'colors.scss' (arquivo onde esta nossas variaveis) nao for chamado antes, o home ira chamar variavei que ainda nao existem
+//assim acarretando erros de compilacao

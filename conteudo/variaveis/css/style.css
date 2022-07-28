@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*
+Podemos criar variáveis que possuem alguma estilização com o sass 
+*/
+.btn1 {
+  width: 125px;
+  background-color: #c08b8c; /* E então chamar esta dita estilização com o nome da variável */
+}
+
+.btn2 {
+  width: 125px;
+  background-color: #c08b8c;
+}
+
+/*# sourceMappingURL=style.css.map */

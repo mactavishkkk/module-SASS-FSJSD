@@ -1,0 +1,16 @@
+$btn-color: #c08b8c;
+$width-btn: 125px;
+
+/*
+Podemos criar variáveis que possuem alguma estilização com o sass 
+*/
+
+.btn1{
+    width: $width-btn;
+    background-color: $btn-color;/* E então chamar esta dita estilização com o nome da variável */
+}
+
+.btn2{
+    width: $width-btn;
+    background-color: $btn-color;
+}

@@ -1,0 +1,37 @@
+/* .class1 ul {
+    background-color: red;
+}
+
+.class1 li {
+    background-color: blue;
+} */
+
+/* Temos a forma de comentar acima que é a padrão do css3, mas temos também o NESTING,
+uma forma mais semântica e legível do scc de fazermos a mesma formatação. */
+
+.class1 {
+    ul {
+        background-color: red;
+    }
+
+    li {
+        color: white;
+        background-color: blue;
+    }
+
+    button {
+        background-color: green;
+        color: white;
+        cursor: pointer;
+
+        /* button:hover {
+            background-color: red;
+            transition: 500ms;
+        } */
+
+        &:hover {
+            background-color: red;
+            transition: 500ms;
+        }
+    }
+}

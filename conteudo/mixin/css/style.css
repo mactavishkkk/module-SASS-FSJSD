@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* .texts {
+    h1{
+        color: #ff4043;
+        font-size: 34px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p {
+        color: blue;
+        font-size: 22px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+} */
+/* Com o mixin, podemos criar funções onde passamos as propriedades como parâmetros, e com o
+@include, chamamos a funcao dentro do elemento scss com os valores das propriedades */
+.texts h1 {
+  color: #ff4043;
+  font-size: 34px;
+  font-family: "Arial";
+}
+.texts p {
+  color: #463497;
+  font-size: 24px;
+  font-family: "Courier";
+}
+
+/*# sourceMappingURL=style.css.map */
